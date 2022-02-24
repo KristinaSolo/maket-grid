@@ -1,0 +1,73 @@
+.header {
+    background-color: rgb(125, 233, 197);
+    grid-column: 1/4;
+
+}
+
+.aside {
+    background-color: rgb(146, 146, 230);
+}
+
+.main {
+    background-color: rgb(211, 200, 221);
+    
+}
+
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 10% 1fr 10%;
+    height: 80vh;
+    text-align: center;
+
+
+}
+
+.footer {
+    background-color: rgb(183, 209, 87);
+    grid-column: 1/4;
+
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 30px;
+}
+
+.footblok {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.foot1,
+.foot2,
+.foot3,
+.foot4 {
+    background-color: rgb(158, 192, 223);
+
+    padding: 5%;
+}
+
+.blok1,
+.blok2,
+.blok3 {
+    background-color: azure;
+    height: 45%;
+}
+
+.blok1,
+.blok2 {
+    align-self: flex-end;
+
+}
+
+.blok3 {
+
+    grid-column: 2/4;
+
+    align-self: start;
+}
